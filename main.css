@@ -1,0 +1,72 @@
+.root {
+    -fx-background-color: #f0f0f0;
+    -fx-font-size: 16px;
+    -fx-font-family: Rubik;
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 0 0;
+    -fx-border-color: #8080EE;
+    -fx-accent: #87CEFA;
+}
+.default-color0.chart-bar {
+    -fx-bar-fill: #8080EE;
+}
+.chart-title {
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+}
+
+/* Überschrift */
+.header {
+    -fx-background-color: #333;
+    -fx-text-fill: #fff;
+    -fx-font-size: 24px;
+    -fx-padding: 10px;
+}
+
+/* Hauptbereich */
+.main {
+    -fx-padding: 20px;
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #8080EE;
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+/* Buttons Hover */
+.button:hover {
+    -fx-background-color: #AFAFF6;
+}
+
+/* Eingabefeld */
+.text-field {
+    -fx-background-color: #fff;
+    -fx-padding: 10px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-font-size: 16px;
+    -fx-font-family: "Rubik", "Helvetica Neue", sans-serif;
+}
+
+/* Eingabefeld Fokus */
+.text-field:focused {
+    -fx-border-color: #007bff;
+}
+
+/* Tabellenzeile */
+.table-row-cell:even {
+    -fx-background-color: #f9f9f9;
+}
+
+/* Tabellenzeile Hover */
+.table-row-cell:hover {
+    -fx-background-color: #ECECFF;
+}
